@@ -1,3 +1,4 @@
 git add .
-git commit -m "automatic commit from bat file"
+set /p "commit= enter commit message: "
+git commit -m "%commit%"
 git push origin main
